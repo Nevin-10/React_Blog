@@ -31,13 +31,14 @@ const Table1 = () => {
 
 
   return (
-    <div>
+    <div style={{background:'lightsteelblue'}}>
         <TableContainer>
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell>ID</TableCell>
-                        <TableCell>TITLE</TableCell>
+                        <TableCell style={{color:'red',fontSize:'20px'}}>ID</TableCell>
+                        
+                        <TableCell style={{color:'red',fontSize:'20px'}}>TITLE</TableCell>
 
 
                     </TableRow>
